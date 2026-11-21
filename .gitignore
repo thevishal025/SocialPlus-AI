@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+**/.venv/
+**/venv/
+backend/venv/
+
+# Environment Variables & Secrets (Keep .env.example tracked)
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+socialpulse.db
+
+# Node / Frontend
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.eslintcache
+*.tsbuildinfo
+**/*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs & Testing
+*.log
+**/*.log
+.pytest_cache/
+**/.pytest_cache/
+scratch/
+**/scratch/
+backend/scratch_*.py
+backend/test_html.txt
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+.agents/
+scripts/mcp_local.json
+
